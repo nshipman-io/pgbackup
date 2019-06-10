@@ -26,6 +26,7 @@ S3 Example:
 Local Example: 
 
 :: 
+
   $ pgbackup postgres://tom@example.com:5432/db_one --driver local /var/local/db_one/backups/dump.sql
 
 Running Tests
