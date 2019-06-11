@@ -15,6 +15,7 @@ def create_parser():
     parser.add_argument('--driver', '-d',
             help="How and where to store the backup",
             nargs=2,
+            metavar=('driver','destination'),
             action=DriverAction,
             required=True)
     return parser
